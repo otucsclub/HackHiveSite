@@ -262,7 +262,7 @@ export default function Form() {
         }
 
         try {
-            const response = await fetch('http://otucsclub.dev/api/hackhive/register', {
+            const response = await fetch('https://otucsclub.dev/api/hackhive/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
